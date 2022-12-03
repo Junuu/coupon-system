@@ -1,11 +1,11 @@
-package com.demo.demo
+package com.demo.test
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CouponApplication
+class TestApplication
 
 fun main(args: Array<String>) {
-	runApplication<CouponApplication>(*args)
+	runApplication<TestApplication>(*args)
 }

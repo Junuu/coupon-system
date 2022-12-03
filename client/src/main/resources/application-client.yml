@@ -1,0 +1,19 @@
+coupon:
+  clients:
+    test:
+      endpoint: http://localhost:9090
+
+feign:
+  okhttp:
+    enable: true
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 10000
+        loggerLevel: full
+  httpclient:
+    max-connections: 1000
+
+
+
