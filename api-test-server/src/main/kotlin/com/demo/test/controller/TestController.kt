@@ -9,9 +9,10 @@ class TestController {
 
     @GetMapping("/test/{params}")
     fun test(@PathVariable params: String): String{
-        return when(params){
+        val result = when(params){
             "1" -> "This is Test Server"
             else -> throw IllegalArgumentException("error")
         }
+        return result
     }
 }

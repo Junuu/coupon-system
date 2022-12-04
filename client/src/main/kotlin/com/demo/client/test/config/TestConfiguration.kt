@@ -1,6 +1,5 @@
 package com.demo.client.test.config
 
-import com.demo.client.common.config.FeignClientConfig
 import com.demo.client.common.config.FeignClientProperties
 import feign.RequestInterceptor
 import feign.RequestTemplate

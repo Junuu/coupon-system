@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class TestController(
     private val testClient: TestClient
 ) {
-    @GetMapping("/{params}")
+    @GetMapping("/test/{params}")
     fun test(@PathVariable params: String): String{
         return testClient.requestTestServer(params)
     }
